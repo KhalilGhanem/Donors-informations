@@ -1,0 +1,17 @@
+body {
+    background-image: url(../img/donate-background.jpg);
+    color: #eee;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+#formDiv , #tableSection {
+    background-color: rgba(96, 96, 96,.8);
+        
+}
+h1{
+    color: #eee;
+
+}
