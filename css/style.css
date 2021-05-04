@@ -7,11 +7,58 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-#formDiv , #tableSection {
-    background-color: rgba(96, 96, 96,.8);
-        
+ #tableSection , header, footer {
+    background-color: rgba(96, 96, 96,.8);   
+    
 }
-h1{
-    color: #eee;
 
+table, th, td {
+    border: 1px solid #eee;
+    border-collapse: collapse;
+    text-align: center;
+}
+form {
+    background-color: rgba(96, 96, 96,.8);   
+    
+
+
+}
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+footer P {
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+
+}
+#formDiv{
+    position: relative;
+    width: 30%;
+}
+input[type=text]{
+    width: 30%;
+    /* margin: 5px; */
+    /* padding: 10px 10px;
+    margin: 8px 0; */
+    display: inline-block;
+    position: absolute;
+    right: 3%;
+}
+select{
+    width: 30%;
+    display: inline-block;
+    position: absolute;
+    right: 3%;
+    bottom: 3%;
+
+}
+footer{
+    display: inline-block;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
 }

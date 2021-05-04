@@ -45,6 +45,7 @@ function renderFooter(){
   let tfEl=document.createElement('td');
   footerRow.appendChild(tfEl);
   tfEl.textContent=`Total: ${total}`;
+  tfEl.setAttribute('colspan','3');
 
 }
 
